@@ -8,7 +8,6 @@ with open('model.pickle','rb') as f:
 
 app = FastAPI()
 
-
 @app.get('/')
 def index():
     return {'message': 'Hey look it\'s working'}
